@@ -12,6 +12,6 @@ izigo is inspired by Tornado, Sinatra and Flask with the added benefit of some G
 	 izigo.Run()
 	}
 
-more information: http://izigo.me
+more information: http://go.izi.asia
 */
 package izigo

@@ -37,7 +37,7 @@
 //  cnf.DIY(key string) (interface{}, error)
 //  cnf.GetSection(section string) (map[string]string, error)
 //  cnf.SaveConfigFile(filename string) error
-//More docs http://izigo.me/docs/module/config.md
+//More docs http://go.izi.asia/docs/module/config.md
 package config
 
 import (

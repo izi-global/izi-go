@@ -4,7 +4,7 @@
 izigo is used for rapid development of RESTful APIs, web apps and backend services in Go.
 It is inspired by Tornado, Sinatra and Flask. izigo has some Go-specific features such as interfaces and struct embedding.
 
-###### More info at [izigo.me](http://izigo.me).
+###### More info at [go.izi.asia](http://go.izi.asia).
 
 ## Quick Start
 
@@ -31,7 +31,7 @@ func main(){
 
 Congratulations! You've just built your first **izigo** app.
 
-###### Please see [Documentation](http://izigo.me/docs) for more.
+###### Please see [Documentation](http://go.izi.asia/docs) for more.
 
 ## Features
 
@@ -46,13 +46,13 @@ Congratulations! You've just built your first **izigo** app.
 
 ## Documentation
 
-* [English](http://izigo.me/docs/intro/)
-* [中文文档](http://izigo.me/docs/intro/)
-* [Русский](http://izigo.me/docs/intro/)
+* [English](http://go.izi.asia/docs/intro/)
+* [中文文档](http://go.izi.asia/docs/intro/)
+* [Русский](http://go.izi.asia/docs/intro/)
 
 ## Community
 
-* [http://izigo.me/community](http://izigo.me/community)
+* [http://go.izi.asia/community](http://go.izi.asia/community)
 * Welcome to join us in Slack: [https://izigo.slack.com](https://izigo.slack.com), you can get invited from [here](https://github.com/izi-global/izidoc/issues/232)
 
 ## License

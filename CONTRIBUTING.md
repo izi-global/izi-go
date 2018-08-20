@@ -49,4 +49,4 @@ never hurts to add a quick "+1" or "I have this problem too". This will
 help prioritize the most common problems and requests.
 
 Also if you don't know how to use it. please make sure you have read though
-the docs in http://izigo.me/docs
+the docs in http://go.izi.asia/docs

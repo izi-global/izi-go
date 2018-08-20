@@ -21,10 +21,10 @@ var indexTpl = `
 For detail usage please check our document:
 </p>
 <p>
-<a target="_blank" href="http://izigo.me/docs/module/toolbox.md">Toolbox</a>
+<a target="_blank" href="http://go.izi.asia/docs/module/toolbox.md">Toolbox</a>
 </p>
 <p>
-<a target="_blank" href="http://izigo.me/docs/advantage/monitor.md">Live Monitor</a>
+<a target="_blank" href="http://go.izi.asia/docs/advantage/monitor.md">Live Monitor</a>
 </p>
 {{.Content}}
 {{end}}`

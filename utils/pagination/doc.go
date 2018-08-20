@@ -52,7 +52,7 @@ In your view templates:
 
 See also
 
-http://izigo.me/docs/mvc/view/page.md
+http://go.izi.asia/docs/mvc/view/page.md
 
 */
 package pagination

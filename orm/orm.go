@@ -50,7 +50,7 @@
 //		num, err = o.Delete(&u)
 //	}
 //
-// more docs: http://izigo.me/docs/mvc/model/overview.md
+// more docs: http://go.izi.asia/docs/mvc/model/overview.md
 package orm
 
 import (

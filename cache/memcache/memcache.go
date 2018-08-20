@@ -26,7 +26,7 @@
 //
 //  bm, err := cache.NewCache("memcache", `{"conn":"127.0.0.1:11211"}`)
 //
-//  more docs http://izigo.me/docs/module/cache.md
+//  more docs http://go.izi.asia/docs/module/cache.md
 package memcache
 
 import (

@@ -26,7 +26,7 @@
 //
 //  cnf, err := config.NewConfig("yaml", "config.yaml")
 //
-//More docs http://izigo.me/docs/module/config.md
+//More docs http://go.izi.asia/docs/module/config.md
 package yaml
 
 import (

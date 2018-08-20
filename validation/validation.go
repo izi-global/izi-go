@@ -43,7 +43,7 @@
 //		}
 //	}
 //
-// more info: http://izigo.me/docs/mvc/controller/validation.md
+// more info: http://go.izi.asia/docs/mvc/controller/validation.md
 package validation
 
 import (
@@ -379,7 +379,6 @@ func (v *Validation) Valid(obj interface{}) (b bool, err error) {
 					currentField = objV.Field(i).Elem().Interface()
 				}
 			}
-
 
 			chk := Required{""}.IsSatisfied(currentField)
 			if !hasRequired && v.RequiredFirst && !chk {

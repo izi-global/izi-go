@@ -30,7 +30,7 @@
 //	log.Debug("debug")
 //	log.Critical("critical")
 //
-//  more docs http://izigo.me/docs/module/logs.md
+//  more docs http://go.izi.asia/docs/module/logs.md
 package logs
 
 import (

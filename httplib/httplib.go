@@ -17,7 +17,7 @@
 //
 // import "github.com/izi-global/izigo/httplib"
 //
-//	b := httplib.Post("http://izigo.me/")
+//	b := httplib.Post("http://go.izi.asia/")
 //	b.Param("username","diepdt")
 //	b.Param("password","123456")
 //	b.PostFile("uploadfile1", "httplib.pdf")
@@ -28,7 +28,7 @@
 //	}
 //	fmt.Println(str)
 //
-//  more docs http://izigo.me/docs/module/httplib.md
+//  more docs http://go.izi.asia/docs/module/httplib.md
 package httplib
 
 import (

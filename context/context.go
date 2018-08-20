@@ -19,7 +19,7 @@
 //
 //	ctx := context.Context{Request:req,ResponseWriter:rw}
 //
-//  more docs http://izigo.me/docs/module/context.md
+//  more docs http://go.izi.asia/docs/module/context.md
 package context
 
 import (

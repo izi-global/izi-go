@@ -26,7 +26,7 @@
 //
 //  cnf, err := config.NewConfig("xml", "config.xml")
 //
-//More docs http://izigo.me/docs/module/config.md
+//More docs http://go.izi.asia/docs/module/config.md
 package xml
 
 import (

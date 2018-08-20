@@ -28,7 +28,7 @@
 //	bm.IsExist("diepdt")
 //	bm.Delete("diepdt")
 //
-//  more docs http://izigo.me/docs/module/cache.md
+//  more docs http://go.izi.asia/docs/module/cache.md
 package cache
 
 import (

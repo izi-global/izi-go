@@ -27,7 +27,7 @@
 //
 // AddHealthCheck("database",&DatabaseCheck{})
 //
-// more docs: http://izigo.me/docs/module/toolbox.md
+// more docs: http://go.izi.asia/docs/module/toolbox.md
 package toolbox
 
 // AdminCheckList holds health checker map

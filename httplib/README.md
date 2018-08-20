@@ -8,7 +8,7 @@ you can use Get to crawl data.
 
 	import "github.com/izi-global/izigo/httplib"
 	
-	str, err := httplib.Get("http://izigo.me/").String()
+	str, err := httplib.Get("http://go.izi.asia/").String()
 	if err != nil {
         	// error
 	}
@@ -17,7 +17,7 @@ you can use Get to crawl data.
 ## POST
 POST data to remote url
 
-	req := httplib.Post("http://izigo.me/")
+	req := httplib.Post("http://go.izi.asia/")
 	req.Param("username","diepdt")
 	req.Param("password","123456")
 	str, err := req.String()
@@ -35,21 +35,21 @@ The default timeout is `60` seconds, function prototype:
 Example:
 
 	// GET
-	httplib.Get("http://izigo.me/").SetTimeout(100 * time.Second, 30 * time.Second)
+	httplib.Get("http://go.izi.asia/").SetTimeout(100 * time.Second, 30 * time.Second)
 	
 	// POST
-	httplib.Post("http://izigo.me/").SetTimeout(100 * time.Second, 30 * time.Second)
+	httplib.Post("http://go.izi.asia/").SetTimeout(100 * time.Second, 30 * time.Second)
 
 
 ## Debug
 
 If you want to debug the request info, set the debug on
 
-	httplib.Get("http://izigo.me/").Debug(true)
+	httplib.Get("http://go.izi.asia/").Debug(true)
 	
 ## Set HTTP Basic Auth
 
-	str, err := Get("http://izigo.me/").SetBasicAuth("user", "passwd").String()
+	str, err := Get("http://go.izi.asia/").SetBasicAuth("user", "passwd").String()
 	if err != nil {
         	// error
 	}
@@ -67,7 +67,7 @@ More info about the `tls.Config` please visit http://golang.org/pkg/crypto/tls/#
 
 some servers need to specify the protocol version of HTTP
 
-	httplib.Get("http://izigo.me/").SetProtocolVersion("HTTP/1.1")
+	httplib.Get("http://go.izi.asia/").SetProtocolVersion("HTTP/1.1")
 	
 ## Set Cookie
 
@@ -76,13 +76,13 @@ some http request need setcookie. So set it like this:
 	cookie := &http.Cookie{}
 	cookie.Name = "username"
 	cookie.Value  = "diepdt"
-	httplib.Get("http://izigo.me/").SetCookie(cookie)
+	httplib.Get("http://go.izi.asia/").SetCookie(cookie)
 
 ## Upload file
 
 httplib support mutil file upload, use `req.PostFile()`
 
-	req := httplib.Post("http://izigo.me/")
+	req := httplib.Post("http://go.izi.asia/")
 	req.Param("username","diepdt")
 	req.PostFile("uploadfile1", "httplib.pdf")
 	str, err := req.String()

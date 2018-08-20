@@ -37,7 +37,7 @@
 //		go globalSessions.GC()
 //	}
 //
-// more docs: http://izigo.me/docs/module/session.md
+// more docs: http://go.izi.asia/docs/module/session.md
 package mysql
 
 import (
