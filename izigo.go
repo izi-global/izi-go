@@ -23,7 +23,7 @@ import (
 
 const (
 	// VERSION represent izigo web framework version.
-	VERSION = "1.10.1"
+	VERSION = "1.0.0"
 
 	// DEV is for develop
 	DEV = "dev"
