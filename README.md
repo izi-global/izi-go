@@ -47,8 +47,6 @@ Congratulations! You've just built your first **izigo** app.
 ## Documentation
 
 * [English](http://go.izi.asia/docs/intro/)
-* [中文文档](http://go.izi.asia/docs/intro/)
-* [Русский](http://go.izi.asia/docs/intro/)
 
 ## Community
 
@@ -57,5 +55,5 @@ Congratulations! You've just built your first **izigo** app.
 
 ## License
 
-izigo source code is licensed under the Apache Licence, Version 2.0
+IZI-GO source code is licensed under the Apache Licence, Version 2.0
 (http://www.apache.org/licenses/LICENSE-2.0.html).
