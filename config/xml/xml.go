@@ -14,9 +14,9 @@
 
 // Package xml for config provider.
 //
-// depend on github.com/izigo/x2j.
+// depend on github.com/izi-global/x2j.
 //
-// go install github.com/izigo/x2j.
+// go install github.com/izi-global/x2j.
 //
 // Usage:
 //  import(
@@ -40,7 +40,7 @@ import (
 	"sync"
 
 	"github.com/izi-global/izigo/config"
-	"github.com/izigo/x2j"
+	"github.com/izi-global/x2j"
 )
 
 // Config is a xml config parser and implements Config interface.

@@ -14,9 +14,9 @@
 
 // Package yaml for config provider
 //
-// depend on github.com/izigo/goyaml2
+// depend on github.com/izi-global/goyaml2
 //
-// go install github.com/izigo/goyaml2
+// go install github.com/izi-global/goyaml2
 //
 // Usage:
 //  import(
