@@ -1,4 +1,4 @@
-// Copyright 2014 izigo Author. All Rights Reserved.
+// Copyright 2018 IZI Global. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -40,8 +40,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/izi-global/goyaml2"
 	"github.com/izi-global/izigo/config"
-	"github.com/izigo/goyaml2"
 )
 
 // Config is a yaml config parser and implements Config interface.
@@ -296,7 +296,7 @@ func (c *ConfigContainer) getData(key string) (interface{}, error) {
 			case map[string]interface{}:
 				{
 					tmpData = v.(map[string]interface{})
-					if idx == len(keys) - 1 {
+					if idx == len(keys)-1 {
 						return tmpData, nil
 					}
 				}

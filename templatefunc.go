@@ -1,4 +1,4 @@
-// Copyright 2014 izigo Author. All Rights Reserved.
+// Copyright 2018 IZI Global. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -220,7 +220,7 @@ func Htmlquote(text string) string {
 
 // Htmlunquote returns unquoted html string.
 func Htmlunquote(text string) string {
-	//实体符号解释为HTML
+	//Entity symbol is interpreted as HTML
 	/*
 	   Decodes `text` that's HTML quoted.
 	       >>> htmlunquote('&lt;&#39;&amp;&quot;&gt;')

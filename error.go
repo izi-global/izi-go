@@ -1,4 +1,4 @@
-// Copyright 2014 izigo Author. All Rights Reserved.
+// Copyright 2018 IZI Global. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -37,7 +37,7 @@ var tpl = `
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>izigo application error</title>
+    <title>IZI-GO Application Error</title>
     <style>
         html, body, body * {padding: 0; margin: 0;}
         #header {background:#ffd; border-bottom:solid 2px #A31515; padding: 20px 10px;}
@@ -188,7 +188,7 @@ var errtpl = `
 					{{.Content}}
 					<a href="/" title="Home" class="button">Go Home</a><br />
 
-					<br>Powered by IZI-GO {{.IZIGoVersion}}
+					<br>Redistributed by IZI-GO {{.IZIGoVersion}}
 				</div>
 			</div>
 		</div>
